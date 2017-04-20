@@ -2,9 +2,11 @@ package com.example.uidemos;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -58,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
             int green = data.getIntExtra(getString(R.string.slider_color_green),0);
             int blue = data.getIntExtra(getString(R.string.slider_color_blue),0);
             String text = "Red: " + red + "\n" + "Green: " + green + "\n" + "Blue: " + blue + "\n";
+            LinearLayout layout = (LinearLayout) findViewById(R.id.main_layoutRoot);
+            layout.setBackgroundColor(Color.rgb(red, green, blue));
             Toast.makeText(context, text, Toast.LENGTH_LONG).show();
         }
     }
