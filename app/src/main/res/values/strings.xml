@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">UIDemos</string>
+    <string name="picker">Picker Demo</string>
+    <string name="picker_text">You picked:</string>
+    <string name="editText">EditText Demo</string>
+    <string name="sliders">Sliders Demo</string>
+    <string name="hint_pickedNumb">You picked: </string>
+    <string name="button_ok">Ok</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="hint_editText_plain">Enter Plain-Text</string>
+    <string name="hint_editText_email">Enter Email</string>
+    <string name="hint_editText_number">Enter Number</string>
+    <string name="hint_editText_password">Enter Password</string>
+    <string name="textView_red">Red</string>
+    <string name="textView_green">Green</string>
+    <string name="textView_blue">Blue</string>
+
+    <string name="pickedNumber">com.example.UIDemos.pickedNumber</string>
+    <string name="editText_info">com.example.UIDemos.editText_info</string>
+    <string name="slider_color_red">com.example.UIDemos.slider_color_red</string>
+    <string name="slider_color_green">com.example.UIDemos.slider_color_green</string>
+    <string name="slider_color_blue">com.example.UIDemos.slider_color_blue</string>
+</resources>
