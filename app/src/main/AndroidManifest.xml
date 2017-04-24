@@ -12,13 +12,27 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PickerActivity" />
-        <activity android:name=".EditTextActivity" />
-        <activity android:name=".SlideActivity"></activity>
+        <activity android:name=".PickerActivity" >
+            <intent-filter>
+                <action android:name="com.example.uidemos.intent.action.PICKER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".EditTextActivity" >
+            <intent-filter>
+                <action android:name="com.example.uidemos.intent.action.EDIT_TEXT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".SlideActivity">
+            <intent-filter>
+                <action android:name="com.example.uidemos.intent.action.SLIDE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
